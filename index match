@@ -1,0 +1,4 @@
+
+-- returns the value in column L (task_sheet tab) if values in E (current tab) and R (task_shet tab) match
+
+=iferror(INDEX(task_sheet!L:L, MATCH(E29, task_sheet!R:R, 0)),)
