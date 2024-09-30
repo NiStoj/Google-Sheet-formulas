@@ -1,0 +1,5 @@
+=IF(MOD(ROW(), 2) = 0, CONCATENATE(A1, ",", A2), "")
+-- concatanates values from two rows from the same column,
+used for dataset for dupicates if we want the duplicate pair
+in one row instead of having the ids one after the other. 
+Bojan needed it
